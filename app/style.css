@@ -681,6 +681,9 @@ footer {
   body {
     padding: 1rem;
   }
+  .avatar {
+    margin: 0 auto; /* bikin avatar ke tengah */
+  }
   .cv-container {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -692,10 +695,15 @@ footer {
     max-width: none;
   }
   .entry {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
   }
   .entry .date {
-    margin-bottom: 0.5rem;
+    order: 2; /* bikin date muncul setelah content */
+    margin-top: 0.5rem;
+  }
+  .entry div:not(.date) {
+    order: 1;
   }
 
   /* Contact */
