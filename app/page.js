@@ -20,7 +20,7 @@ export default function Home() {
       {/* <Navbar /> */}
 
       {/*Floating Button Dark Light Mode*/}
-      {/* <ButtonMode /> */}
+      <ButtonMode />
 
       {/* About Me */}
       <AboutMe />

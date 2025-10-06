@@ -3,6 +3,11 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "@fortawesome/fontawesome-free/css/all.min.css";
 import "./globals.css";
 import "./style.css";
+<script
+  defer
+  src="https://cloud.umami.is/script.js"
+  data-website-id="50b75411-acd1-400c-9a40-0caf73aa1030"
+></script>;
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

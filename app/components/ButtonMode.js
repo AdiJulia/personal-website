@@ -10,10 +10,10 @@ export default function ButtonMode() {
 
   const toggleTheme = () => {
     if (theme === "root") {
-      document.documentElement.classList.add("light");
-      setTheme("light");
+      document.documentElement.classList.add("dark");
+      setTheme("dark");
     } else {
-      document.documentElement.classList.remove("light");
+      document.documentElement.classList.remove("dark");
       setTheme("root");
     }
   };
@@ -26,14 +26,14 @@ export default function ButtonMode() {
             p-3 rounded-full shadow-lg flex items-center justify-center opacity-80
             transition-colors duration-300
             ${
-              theme === "light"
+              theme === "dark"
                 ? "bg-gray-300 text-gray-800 hover:bg-gray-400"
                 : "bg-gray-800 text-gray-100 hover:bg-gray-700"
             }
           `}
       >
         <i
-          className={`fas ${theme === "light" ? "fa-moon" : "fa-moon"} text-xl`}
+          className={`fas ${theme === "dark" ? "fa-moon" : "fa-moon"} text-xl`}
         ></i>
       </button>
     </div>

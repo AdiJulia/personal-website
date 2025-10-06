@@ -4,12 +4,10 @@ export default function Skills() {
       <h3>What I Work With</h3>
       <div className="skills-grid">
         <div className="skill-item">
-          <img src="assets/img/skills/html.png" alt="HTML5" />{" "}
-          <span>HTML</span>
+          <img src="assets/img/skills/html.png" alt="HTML5" /> <span>HTML</span>
         </div>
         <div className="skill-item">
-          <img src="assets/img/skills/css.png" alt="CSS3" />{" "}
-          <span>CSS</span>
+          <img src="assets/img/skills/css.png" alt="CSS3" /> <span>CSS</span>
         </div>
         <div className="skill-item">
           <img src="assets/img/skills/js.png" alt="JavaScript" />{" "}
@@ -24,8 +22,7 @@ export default function Skills() {
           <span>Bootstrap</span>
         </div>
         <div className="skill-item">
-          <img src="assets/img/skills/php.png" alt="PHP" />{" "}
-          <span>PHP</span>
+          <img src="assets/img/skills/php.png" alt="PHP" /> <span>PHP</span>
         </div>
         <div className="skill-item">
           <img src="assets/img/skills/laravel.png" alt="Laravel" />{" "}
@@ -46,6 +43,10 @@ export default function Skills() {
         <div className="skill-item">
           <img src="assets/img/skills/python.png" alt="Python" />{" "}
           <span>Python</span>
+        </div>
+        <div className="skill-item">
+          <img src="assets/img/skills/figma.png" alt="Figma" />{" "}
+          <span>Figma</span>
         </div>
       </div>
     </section>

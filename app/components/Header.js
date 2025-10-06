@@ -17,8 +17,8 @@ export default function Header() {
             <Link href="/contact" className="btn">
               Say Hello
             </Link>
-            <Link href="/projects" className="btn2">
-              See my project
+            <Link href="/resume" className="btn2">
+              Resume & Experience
             </Link>
           </div>
         </div>

@@ -15,7 +15,8 @@ export default function Project2() {
               <div className="overlay-text">
                 <h3>
                   Klinik Utama RiA PiLAR is a healthcare application built using
-                  the PHP Laravel framework. My first freelance project working directly with a client.
+                  the PHP Laravel framework. My first freelance project working
+                  directly with a client.
                 </h3>
               </div>
 
@@ -29,6 +30,7 @@ export default function Project2() {
               <a
                 href="https://klinikutamariapilar.com/"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn-project"
               >
                 Visit Project
@@ -61,6 +63,7 @@ export default function Project2() {
               <a
                 href="https://github.com/AdiJulia/SentiLearn.git"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn-project"
               >
                 Visit Project
@@ -93,6 +96,7 @@ export default function Project2() {
               <a
                 href="https://github.com/AdiJulia/ERP-Tugas-Akhir.git"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn-project"
               >
                 Visit Project
@@ -111,7 +115,7 @@ export default function Project2() {
                 <h3>
                   My first college project, a warehouse information system
                   website for furniture management, including employee
-                  management, product data, categories, and more.
+                  management, product data, and more.
                 </h3>
               </div>
 
@@ -125,6 +129,7 @@ export default function Project2() {
               <a
                 href="https://github.com/AdiJulia/Sistem-Informasi---SCM2---Pergudangan-Furniture-Public.git"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="btn-project"
               >
                 Visit Project

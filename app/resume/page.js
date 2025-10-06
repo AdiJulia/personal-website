@@ -1,8 +1,24 @@
+"use client";
+import "bootstrap-icons/font/bootstrap-icons.css";
+import LeftSide from "./LeftSide";
+import RightSide from "./RightSide";
+import ButtonMode from "../components/ButtonMode";
+import Footer from "../components/Footer";
+import ButtonFloat from "../components/ButtonFloat";
+
 export default function Resume() {
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>My Resume</h1>
-      <p>Daftar project yang pernah saya buat...</p>
+    <div>
+      <div className="cv-container">
+        <ButtonMode />
+
+        <LeftSide />
+
+        <RightSide />
+
+        <ButtonFloat />
+      </div>
+      <Footer />
     </div>
   );
 }
