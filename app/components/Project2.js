@@ -4,6 +4,39 @@ export default function Project2() {
       <div className="container-project">
         <h2>Some Cool Stuff I Made</h2>
         <div className="projects-grid">
+          {/* PROJECT SMKI */}
+          <div className="project-card">
+            <img
+              src="assets/img/project/portal-smki.png"
+              alt="Project 1"
+              className="project-image"
+            />
+            <div className="project-overlay">
+              <div className="overlay-text">
+                <h3>
+                  Portal SMKI is a Laravel-based application for securely
+                  storing and managing information security documents,
+                  accessible only to authenticated users.
+                </h3>
+              </div>
+
+              <div className="overlay-tools">
+                <img src="assets/img/skills/bootstrap.png" alt="PHP" />
+                <img src="assets/img/skills/php.png" alt="PHP" />
+                <img src="assets/img/skills/laravel.png" alt="Laravel" />
+                <img src="assets/img/skills/mysql.png" alt="MySQL" />
+              </div>
+
+              <a
+                href="https://portal-smki.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-project"
+              >
+                Visit Project
+              </a>
+            </div>
+          </div>
           {/* project 1 */}
           <div className="project-card">
             <img
